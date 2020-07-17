@@ -34,11 +34,11 @@ nav {
     font-size: 20px;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -108,9 +108,7 @@ h3 {
 }
 
 
-.search-engine-optimization, 
-.online-reputation-management, 
-.social-media-marketing {
+.test {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -120,9 +118,7 @@ h3 {
 }
 
 
-.search-engine-optimization img, 
-.online-reputation-management img,
-.social-media-marketing img {
+.test img {
     max-height: 200px;
 }
 
