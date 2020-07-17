@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/* This applies background color to the entire page */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* These attributes are for the header (formely div) section */
 
 header {
     padding: 20px;
@@ -20,11 +24,15 @@ h1 {
     font-size: 48px;
 }
 
+/* This class is only associated to these letters in the word Horiseon */
+
 .seo {
     color: #d9dcd6;
 }
 
 /* Changed div to nav, so we must keep css consistent */
+
+/* The following are attributes for the nav section */
 
 nav {
     padding-top: 15px;
@@ -52,6 +60,8 @@ p {
     font-size: 16px;
 }
 
+/* This class is for the section that contains the main background image */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -71,11 +81,14 @@ p {
     margin-left: 25px;
 }
 
+/* The following "section" selectors are for the main 3 sections with the main content of the site. */
+
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
 section article {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,11 +97,12 @@ section article {
     background-color: #0072bb;
     color: #ffffff;
 }
-                
+
 section article img {
     max-height: 200px;
 }
 
+/* The following "aside" selectors are for the main 3 sections with the main content of the site. */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -100,8 +114,6 @@ aside {
     background-color: #2589bd;
 }
 
-/* Here we have consolidated css attributes to multiple selectors */
-
 aside article {
     margin-bottom: 32px;
     color: #ffffff;
@@ -112,14 +124,11 @@ h3 {
     text-align: center;
 }
 
-
 aside article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-
 
 /* Changed to h4, and consolidated the css */
 h4 {
@@ -127,6 +136,7 @@ h4 {
     font-size: 20px;
 }
 
+/* This section has the attributes for the footer of the page */
 footer {
     padding: 30px;
     clear: both;
