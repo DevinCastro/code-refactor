@@ -90,9 +90,7 @@ p {
 
 /* Here we have consolidated css attributes to multiple selectors */
 
-.benefit-lead, 
-.benefit-brand, 
-.benefit-cost {
+.benefit-main {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -123,9 +121,7 @@ h3 {
     text-align: center;
 } */
 
-.benefit-lead img, 
-.benefit-brand img, 
-.benefit-cost img {
+.benefit-main img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
